@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bihar Election — Vote</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Bihar Election — Cast Your Vote</h1>
+    <a class="btn small" href="results.html">Coder Results (protected)</a>
+  </header>
+
+  <main id="voter-view">
+    <p class="hint">Click the party image or the "Vote" button. You may vote once per browser.</p>
+
+    <section id="parties" class="grid"></section>
+
+    <div id="after-vote" class="notice hidden">
+      <strong>Thanks for voting!</strong>
+      <p>Your vote has been recorded in this browser.</p>
+    </div>
+  </main>
+
+  <footer>
+    <small>Demo only — client-side & localStorage (no real election use).</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
